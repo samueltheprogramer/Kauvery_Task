@@ -4,7 +4,7 @@ import PopUpCard from '../components/ConsultScreenComponents/PopUpCard';
 
 const Consult = () => {
   return (
-    <View>
+    <View className="w-full h-full bg-white justify-center items-center">
       <PopUpCard />
     </View>
   );

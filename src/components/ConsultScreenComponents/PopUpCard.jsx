@@ -1,4 +1,4 @@
-import {View, Text, Button} from 'react-native';
+import {View, Text, Button, StyleSheet} from 'react-native';
 import React, {useState} from 'react';
 import ReactNativeModal from 'react-native-modal';
 
@@ -12,20 +12,18 @@ const PopUpCard = () => {
     setIsVisible(false);
   };
   return (
-    <View className="flex bg-white  w-full h-full justify-center items-center">
+    <View>
       <Button title="Show Card" onPress={openModal} />
       <ReactNativeModal
+        style={styles.modal}
         isVisible={isVisible}
         onBackdropPress={closeModal}
         onSwipeComplete={closeModal}
         swipeDirection="down"
         animationIn="slideInUp"
-        animationOut="slideOutDown"
-        className=" m-0 p-0 flex justify-end">
-        <View className="bg-white rounded-t-3xl  w-full h-[50%] p-5  shadow-lg">
-          <Text className="text-lg font-semibold text-center mb-4">
-            Popup Card content
-          </Text>
+        animationOut="slideOutDown">
+        <View style={styles.modalCard}>
+          <Text style={styles.modalText}>Popup Card content</Text>
           <Button className="" title="Close" onPress={closeModal} />
         </View>
       </ReactNativeModal>
@@ -34,3 +32,31 @@ const PopUpCard = () => {
 };
 
 export default PopUpCard;
+
+const styles = StyleSheet.create({
+  mainContainer: {
+    flex: 1,
+    backgroundColor: 'white',
+    width: '100%',
+    height: '100%',
+  },
+  modal: {
+    padding: 0,
+    margin: 0,
+    flex: 1,
+    justifyContent: 'flex-end',
+  },
+  modalCard: {
+    backgroundColor: 'white',
+    width: '100%',
+    height: '50%',
+    padding: 5,
+    borderTopLeftRadius: 20,
+    borderTopRightRadius: 20,
+  },
+  modalText: {
+    width: '100%',
+    textAlign: 'center',
+    padding: 20,
+  },
+});
