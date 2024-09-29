@@ -5,30 +5,6 @@ import IconFoun from 'react-native-vector-icons/Foundation';
 import IconFA5 from 'react-native-vector-icons/FontAwesome5';
 import IconAnt from 'react-native-vector-icons/AntDesign';
 
-/* const data = [
-    {
-      "icon": "",
-      "name": "Home",
-      "target_route": "home"
-    },
-    {
-      "icon": "",
-      "name": "Live CME",
-      "target_route": "live_cme"
-    },
-    {
-      "icon": "",
-      "name": "Courses",
-      "target_route": "courses"
-    },
-    {
-      "icon": "",
-      "name": "Watch",
-      "target_route": "watch"
-    }
-    
-  ] */
-
 const TabView = () => {
   const [tabOne, setTabOne] = useState(true);
   const [tabTwo, setTabTwo] = useState(false);
