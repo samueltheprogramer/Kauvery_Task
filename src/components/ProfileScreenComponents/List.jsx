@@ -13,7 +13,7 @@ import Logout from '../../assets/images/logout.svg';
 const List = () => {
   return (
     <View className="p-5 bg-white  flex flex-1 flex-col gap-3">
-      <View className=" flex flex-1 gap-2 rounded-lg  shadow shadow-black/70  bg-white    p-3 ">
+      <View className=" flex flex-1 gap-2 rounded-lg  shadow shadow-black/50 border border-gray-200  bg-white    p-3 ">
         <Text className="text-[17.5px] font-medium text-black/80">Payment</Text>
         <View className="flex flex-row justify-between">
           <View className="flex flex-row gap-2 items-center">
@@ -27,7 +27,7 @@ const List = () => {
           <Image className="w-3 h-3" source={arrow} />
         </View>
       </View>
-      <View className=" flex flex-1 gap-2 justify-center text-center shadow shadow-black/70  bg-white  rounded-lg   p-3 ">
+      <View className=" flex flex-1 gap-2 justify-center text-center shadow shadow-black/50 border border-gray-200  bg-white  rounded-lg   p-3 ">
         <Text className="text-[17.5px]  font-medium text-black/80">
           Support
         </Text>
@@ -43,7 +43,7 @@ const List = () => {
           <Image className="w-3 h-3" source={arrow} />
         </View>
       </View>
-      <View className=" flex flex-1 gap-2 shadow shadow-black/70  bg-white  rounded-lg   p-3 ">
+      <View className=" flex flex-1 gap-2 shadow shadow-black/50 border border-gray-200  bg-white  rounded-lg   p-3 ">
         <Text className="text-[17.5px] font-medium text-black/80">About</Text>
         <View className="flex flex-row justify-between">
           <View className="flex flex-row gap-2 items-center">
@@ -55,26 +55,26 @@ const List = () => {
           <Image className="w-3 h-3" source={arrow} />
         </View>
       </View>
-      <View className=" flex-col justify-center  flex flex-1 gap-1 h-full  p-3 bg-white  divide-y-[1px]  divide-gray-200 shadow shadow-black/70   rounded-lg    ">
+      <View className=" flex-col justify-center  flex flex-1  h-full p-5 bg-white  divide-y-[1px]  divide-gray-200 shadow shadow-black/50 border border-gray-200   rounded-lg    ">
         <View className="flex flex-1 gap-2">
           <Text className="text-[17.5px] pb-2 font-medium text-black/80">
             Terms and policy
           </Text>
 
-          <View className="flex  flex-row items-center justify-between">
-            <View className="flex flex-row gap-2  items-center">
-              <View className="pb-2">
+          <View className="flex  flex-row pb-4  items-center justify-between">
+            <View className="flex flex-row  space-x-2  justify-center  items-center">
+              <View className="">
                 <Policy />
               </View>
-              <Text className="text-[15px] pb-2 font-medium text-gray-800">
+              <Text className="text-[15px]  font-medium text-gray-800">
                 Privacy policy
               </Text>
             </View>
             <Image className="w-3 h-3" source={arrow} />
           </View>
         </View>
-        <View className="flex flex-row gap-1 items-center  justify-between ">
-          <View className="flex flex-row gap-1 justify-center items-center">
+        <View className="flex flex-row  pt-4 items-center  justify-between ">
+          <View className="flex space-x-2 flex-row justify-center items-center">
             <View>
               <Gavel />
             </View>
@@ -85,7 +85,7 @@ const List = () => {
           <Image className="w-3 h-3" source={arrow} />
         </View>
       </View>
-      <View className="flex flex-1 gap-2 shadow shadow-black/70  bg-white rounded-lg   p-3 ">
+      <View className="flex flex-1 gap-2 shadow shadow-black/50 border border-gray-200  bg-white rounded-lg   p-3 ">
         <View className="flex flex-row justify-between">
           <View className="flex flex-row gap-2 items-center">
             <View>

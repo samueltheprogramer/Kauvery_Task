@@ -1,10 +1,11 @@
-import {View, Text} from 'react-native';
+import {View, Text, ScrollView} from 'react-native';
 import React from 'react';
+import AddEducationDetails from '../components/AddEducationDetails';
 
 const Records = () => {
   return (
-    <View>
-      <Text className="text-black">Records</Text>
+    <View className="bg-white h-full ">
+      <AddEducationDetails />
     </View>
   );
 };

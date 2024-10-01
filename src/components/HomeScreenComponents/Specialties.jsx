@@ -4,6 +4,7 @@ import EntIcon from '../../assets/images/ent.svg';
 import GMIcon from '../../assets/images/general medicine.svg';
 import UrologyIcon from '../../assets/images/Frame 1171276257.svg';
 import GastroIcon from '../../assets/images/Frame 1171276269.svg';
+import {verticalScale} from 'react-native-size-matters';
 
 const specialtiesData = [
   {
@@ -39,8 +40,9 @@ const Specialties = () => {
       <View className="flex-1 flex-row  flex-wrap bg-white  ">
         {specialtiesData.map(item => (
           <View
+            style={{height: verticalScale(80)}}
             key={item.id}
-            className="w-[47%] h-[50%] space-y-1  bg-white shadow-lg shadow-black/50 p-4 m-1 rounded-lg">
+            className="w-[47%] space-y-1  bg-white shadow border border-gray-200 shadow-black/50 p-4 m-1 rounded-lg">
             <View className="flex flex-row  justify-between">
               <Text className="font-medium mb-2 w-24  text-black/70">
                 {item.title}

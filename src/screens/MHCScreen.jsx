@@ -1,10 +1,12 @@
-import {View, Text} from 'react-native';
+import {ScrollView, View} from 'react-native';
 import React from 'react';
+
+import EditEducationDetails from '../components/EditEducationDetails';
 
 const MHCScreen = () => {
   return (
-    <View>
-      <Text className="text-black">MHCScreen</Text>
+    <View className="  bg-white h-full">
+      <EditEducationDetails />
     </View>
   );
 };

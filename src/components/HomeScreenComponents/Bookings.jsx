@@ -13,7 +13,7 @@ const Bookings = () => {
         </Text>
       </View>
       <View className="flex space-x-3 flex-row h-44   w-full items-center  justify-center">
-        <View className="flex-1 h-full  space-y-2 flex-col  p-3 rounded-lg bg-white shadow shadow-black justify-center ">
+        <View className="flex-1  h-full  space-y-2 flex-col  p-3 rounded-lg bg-white shadow border border-gray-200 shadow-black/50 justify-center ">
           <View className="icon bg-[#FDECE4] w-10 h-10 flex  justify-center items-center   rounded-full">
             <PlusIcon />
           </View>
@@ -30,7 +30,7 @@ const Bookings = () => {
             Book for in-hospital or Video Consultation
           </Text>
         </View>
-        <View className="flex-1 space-y-2 h-full flex-col  p-3 rounded-lg bg-white shadow shadow-black justify-center">
+        <View className="flex-1 space-y-2 h-full flex-col  p-3 rounded-lg bg-white shadow shadow-black/50 border border-gray-200 justify-center">
           <View className="icon bg-[#FDECE4] w-10 h-10 flex  justify-center items-center   rounded-full">
             <Lab />
           </View>

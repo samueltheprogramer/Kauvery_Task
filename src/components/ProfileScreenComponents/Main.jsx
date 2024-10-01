@@ -27,28 +27,28 @@ const Main = () => {
         </View>
       </View>
       <View style={{gap: 0}} className="flex flex-row w-full justify-between ">
-        <View className="bg-white w-[31%] h-[100px] gap-1  flex flex-col justify-start items-center  text-center  p-2  rounded-lg  shadow shadow-black/40">
+        <View className="bg-white w-[31%] h-[100px] gap-1  flex flex-col justify-start items-center  text-center  p-2  rounded-lg border border-gray-200  shadow shadow-black/50">
           <View>
             <UserIcon width={25} height={25} />
           </View>
-          <Text className="font-medium text-black/80 text-[14px] text-center  ">
+          <Text className="font-medium text-black/80 text-[15px] text-center  ">
             My account
           </Text>
         </View>
-        <View className="bg-white w-[31%] gap-1  flex flex-col justify-start items-center  text-center  p-2   rounded-lg shadow shadow-black/40">
+        <View className="bg-white w-[31%] gap-1  flex flex-col justify-start items-center  text-center  p-2   rounded-lg shadow shadow-black/50 border border-gray-200">
           <View>
             <MF width={25} height={25} />
           </View>
-          <Text className="font-medium text-black/80 w-16 text-[14px] text-center  ">
+          <Text className="font-medium text-black/80 w-16 text-[15px] text-center  ">
             Manage Family
           </Text>
         </View>
-        <View className="bg-white w-[31%] gap-1  flex flex-col justify-start items-center  text-center  p-1   rounded-lg shadow shadow-black/40">
+        <View className="bg-white w-[31%] gap-1  flex flex-col justify-start items-center  text-center  p-1   rounded-lg shadow shadow-black/50 border border-gray-200">
           <View className="pt-1">
             <Flag width={25} height={25} />
           </View>
 
-          <Text className="font-medium text-black/80 text-[14px] text-center  ">
+          <Text className="font-medium text-black/80 text-[15px] text-center  ">
             Tickets
           </Text>
         </View>
