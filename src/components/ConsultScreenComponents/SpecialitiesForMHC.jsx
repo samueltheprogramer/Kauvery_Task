@@ -94,7 +94,7 @@ const SpecialtiesForMHC = () => {
         {tabOne &&
           specialtiesData1.map(item => (
             <View
-              style={{height: verticalScale(80)}}
+              style={{height: scale(100)}}
               key={item.id}
               className="w-[47%]  space-y-1  bg-white shadow border border-gray-200 shadow-black/50 p-4 m-1 rounded-lg">
               <View className="flex flex-row  justify-between">
@@ -123,7 +123,7 @@ const SpecialtiesForMHC = () => {
         {tabTwo &&
           specialtiesData2.map(item => (
             <View
-              style={{height: verticalScale(80)}}
+              style={{height: scale(100)}}
               key={item.id}
               className="w-[47%] space-y-1  bg-white shadow border border-gray-200 shadow-black/50 p-4 m-1 rounded-lg">
               <View className="flex flex-row  justify-between">
@@ -152,7 +152,7 @@ const SpecialtiesForMHC = () => {
         {tabThree &&
           specialtiesData3.map(item => (
             <View
-              style={{height: verticalScale(80)}}
+              style={{height: scale(100)}}
               key={item.id}
               className="w-[47%]  space-y-1  bg-white border border-gray-200 shadow  shadow-black/50 p-4 m-1 rounded-lg">
               <View className="flex flex-row  justify-between">

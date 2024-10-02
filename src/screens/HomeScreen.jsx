@@ -6,7 +6,7 @@ import Specialties from '../components/HomeScreenComponents/Specialties';
 
 const HomeScreen = () => {
   return (
-    <View className="bg-white ">
+    <View className="bg-white  flex-1">
       <ScrollView>
         <SubHeader />
         <Bookings />

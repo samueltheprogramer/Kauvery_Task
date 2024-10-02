@@ -6,7 +6,7 @@ import SearchBar from '../components/ConsultScreenComponents/SearchBar';
 
 const Consult = () => {
   return (
-    <View className=" bg-white">
+    <View className="flex-1 bg-white">
       <ScrollView>
         <SearchBar />
         <SpecialitiesForMHC />
